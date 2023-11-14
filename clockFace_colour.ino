@@ -12,7 +12,7 @@
 #define TFT_RST        -1 // Or set to -1 
 #define TFT_DC         A3
 #define TFT_BL         A4
-#define colour         ST77XX_WHITE  //change dial colour
+#define colour         ST77XX_WHITE  //change dial and hands colour
 
 //using chip specific SPI pins
 Adafruit_ST7789 tft = Adafruit_ST7789(TFT_CS, TFT_DC, TFT_RST);
